@@ -62,7 +62,7 @@ Você saberá que seu ambiente virtual foi ativado, porque o _prompt_ do console
 (pagesenv) $ pip install django
 ```
 
-##**Passo 2: Criando seu projeto em Django**
+## **Passo 2: Criando seu projeto em Django**
 
 2.1) Certifique-se de que você está dentro do diretório “**Tutorial_03**” e o ambiente virtual ativado. Agora, digite o comando abaixo para criar um projeto.
 
