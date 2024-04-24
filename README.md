@@ -74,7 +74,7 @@ Você saberá que seu ambiente virtual foi ativado, porque o _prompt_ do console
 
 O comando acima irá criar uma pasta chamada “**website**” contendo alguns arquivos. No painel esquerdo do **VS Code**, você verá uma estrutura de diretório que se parece com a figura abaixo.
 
-![pasta website](../img_readme/pasta_website.png)
+![pasta website](img_readme/pasta_website.png)
 
 Explicando cada arquivo da pasta “**website**”:
 
