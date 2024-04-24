@@ -4,5 +4,5 @@
 
 ### Django (aplicação monolítica)
 
-* Tutorial 2. Criando Uma Simples Aplicação Web (Hello World): (https://github.com/csp1po/intro_vue_3/tree/t2-start)
+* Tutorial 2. Criando Uma Simples Aplicação Web (Hello World): (https://github.com/csp1po/dw2_Django/tree/t2-start)
 
