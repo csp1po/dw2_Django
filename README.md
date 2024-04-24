@@ -119,7 +119,7 @@ python manage.py runserver
 
 Ignore os avisos sobre migrações não aplicadas por enquanto. Isto porque não estamos usando um Banco de Dados neste tutorial.
 
-Ao posicionar o mouse no link “**http://127.0.0.1:8000/**” você verá a seguinte mensagem:
+Ao posicionar o mouse no link "http://127.0.0.1:8000/" você verá a seguinte mensagem:
 
 ![acesso localhost](img_readme/acesso_localhost.png)
 
@@ -265,7 +265,7 @@ urlpatterns = [
 ]
 ```
 
-6.4) Agora, ao reiniciar o servidor no Terminal (`python manage.py runserver`), visite “**http://127.0.0.1:8000**”. Você deverá a seguinte página da web:
+6.4) Agora, ao reiniciar o servidor no Terminal (`python manage.py runserver`), visite "http://127.0.0.1:8000/". Você deverá a seguinte página da web:
 
 ![home page view](img_readme/home_page_view.png)
 
@@ -309,7 +309,7 @@ urlpatterns = [
 ```
 
 
-7.4) 	Agora, ao reiniciar o servidor no Terminal (`python manage.py runserver`), visite “**http://127.0.0.1:8000/about**”. Você deverá a seguinte página da web:
+7.4) 	Agora, ao reiniciar o servidor no Terminal (`python manage.py runserver`), visite "http://127.0.0.1:8000/". Você deverá a seguinte página da web:
 
 ![about page view](img_readme/about_page_view.png)
 
