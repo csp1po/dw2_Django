@@ -62,7 +62,7 @@ Você saberá que seu ambiente virtual foi ativado, porque o _prompt_ do console
 (virtenv) $ pip install django
 ```
 
-##**Passo 2: Criando seu projeto em Django**
+## **Passo 2: Criando seu projeto em Django**
 
 2.1) Certifique-se de que você está dentro do diretório “**Tutorial_02**” e o ambiente virtual ativado. Agora, digite o comando abaixo para criar um projeto.
 
@@ -114,17 +114,17 @@ python manage.py runserver
 
 3.2) Observe no console do Terminal as mensagens da figura abaixo:
 
-![console terminal](../img_readme/console_terminal.png)
+![console terminal](img_readme/console_terminal.png)
 
 Ignore os avisos sobre migrações não aplicadas por enquanto. Isto porque não estamos usando um Banco de Dados neste tutorial.
 
 Ao posicionar o mouse no link “**http://127.0.0.1:8000/**” você verá a seguinte mensagem:
 
-![acesso localhost](../img_readme/acesso_localhost.png)
+![acesso localhost](img_readme/acesso_localhost.png)
 
 No **Windows** irá aparecer “**Seguir o link (ctrl + click)**”. Ao efetuar esta operação, você será direcionado para uma aba do seu browser, e, se tudo estiver correto, você verá uma página da web como a da figura abaixo.
 
-![tela django](../img_readme/tela_django.png)
+![tela django](img_readme/tela_django.png)
 
 3.3) Parabéns, você acabou de criar um projeto, nossa configuração está correta e você o testou no servidor de desenvolvimento. Agora o Django está pronto para começarmos a desenvolver.
 
@@ -150,7 +150,7 @@ python manage.py startapp hello_world
 
 Este comando irá criar um diretório chamado “**hello_word**” com vários arquivos. Veja a estrutura na figura abaixo.
 
-![pasta hello_world](../img_readme/pasta_hello_world.png)
+![pasta hello_world](img_readme/pasta_hello_world.png)
 
 
 Explicando alguns arquivos que estão dentro da pasta “**hello_world**”:
@@ -181,7 +181,7 @@ Explicando alguns arquivos que estão dentro da pasta “**hello_world**”:
 
 4.2) Agora que você criou a “app”, temos que “instalá-la” no seu projeto. Abra o arquivo (“**website/settings.py**”) e adicione a seguinte linha de código destacada em INSTALLED_APPS: (**Não se esqueça de colocar a vírgula após a _string_**).
 
-![fig installed_apps](../img_readme/installed_apps.png)
+![fig installed_apps](img_readme/installed_apps.png)
 
 Essa linha de código indica que seu projeto agora sabe que o aplicativo que você acabou de criar existe.
 
@@ -260,6 +260,6 @@ Em seguida, na lista “**urlpatterns**”, adicionamos o caminho (rota) para a 
 
 5.3) Agora, ao reiniciar o servidor no Terminal (`python manage.py runserver`), visite “**http://127.0.0.1:8000**”. Você deverá a seguinte página da web:
 
-![first web app](../img_readme/first_web_app.png)
+![first web app](img_readme/first_web_app.png)
 
 5.4) Parabéns. Você criou sua primeira aplicação web em Django.
