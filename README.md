@@ -118,7 +118,7 @@ python manage.py runserver
 
 Ignore os avisos sobre migrações não aplicadas por enquanto. Isto porque não estamos usando um Banco de Dados neste tutorial.
 
-Ao posicionar o mouse no link “**http://127.0.0.1:8000/**” você verá a seguinte mensagem:
+Ao posicionar o mouse no link "http://127.0.0.1:8000/" você verá a seguinte mensagem:
 
 ![acesso localhost](img_readme/acesso_localhost.png)
 
@@ -258,7 +258,7 @@ Observe a linha com o comando `from hello_world import views`. Ela diz ao Django
 
 Em seguida, na lista “**urlpatterns**”, adicionamos o caminho (rota) para a “view” que é a nossa página inicial (homepage). Com a _string_ em branco denotada por “ “, mapeamos este URL para nossa função “index” que está no arquivo “views.py”. E, por último, o nome do argumento opcional que atribuímos como “homepage”. Isso significa que cada solicitação para a página inicial deve retornar a _string_ `<h1>Hello World!</h1>`.
 
-5.3) Agora, ao reiniciar o servidor no Terminal (`python manage.py runserver`), visite “**http://127.0.0.1:8000**”. Você deverá a seguinte página da web:
+5.3) Agora, ao reiniciar o servidor no Terminal (`python manage.py runserver`), visite "http://127.0.0.1:8000/". Você deverá a seguinte página da web:
 
 ![first web app](img_readme/first_web_app.png)
 
