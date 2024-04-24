@@ -2,7 +2,7 @@
 
 Neste tutorial vamos estender o Tutorial 03 usando um conceito mais avançado de “Templates” Para isto, siga atentamente os passos abaixo.
 
-**Observação Importante: faça isso somente depois de fazer o **Tutorial 01**, e o **Tutorial 03**.
+**Observação Importante: faça isso somente depois de fazer o Tutorial 01, e o Tutorial 03**.
 
 
 ## **Passo 1: Estendendo os Templates**
