@@ -1,4 +1,4 @@
-# Este repositório contém o material da Disciplina Desenvolvimento Web II usando Django "puro"
+# Este repositório contém o material da Disciplina Desenvolvimento Web II usando Django "puro" e Django REST API
 
 ## Cada tutorial está em um _branch_
 
