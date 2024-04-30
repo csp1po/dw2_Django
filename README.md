@@ -169,7 +169,7 @@ Ao clicar no botão “**Save**”, algo estranho acontece. Veja a figura abaixo
 
 > O motivo da mensagem acima é porque não definimos nada no atributo “**action**” do elemento `<form>` no **Passo 2.3**. Ou seja, precisamos enviar o usuário para a página de detalhes após ter pressionado o botão “**Save**”. Com isto, ele pode ver a postagem concluída.
 
-> Podemos seguir a sugestão do Django e adicionar o método [`get_absolute_url`] (https://docs.djangoproject.com/pt-br/5.0/ref/models/instances/#django.db.models.Model.get_absolute_url "Método get_absolute_url") ao nosso “**model**”. Esta é uma prática recomendada que você deve sempre fazer. Este método define um URL canônico para um objeto. Portanto, mesmo que a estrutura de seus URLs mude no futuro, a referência ao objeto específico é a mesma. Resumindo, você deve adicionar os métodos `get_absolute_url()` e `__str__()` a cada “**model**” que você escrever.
+> Podemos seguir a sugestão do Django e adicionar o método [`get_absolute_url`](https://docs.djangoproject.com/pt-br/5.0/ref/models/instances/#django.db.models.Model.get_absolute_url "Método get_absolute_url") ao nosso “**model**”. Esta é uma prática recomendada que você deve sempre fazer. Este método define um URL canônico para um objeto. Portanto, mesmo que a estrutura de seus URLs mude no futuro, a referência ao objeto específico é a mesma. Resumindo, você deve adicionar os métodos `get_absolute_url()` e `__str__()` a cada “**model**” que você escrever.
 
 
 Na linha de comando, caso necessário, feche o servidor existente com "CTRL+C".
@@ -346,7 +346,7 @@ Na linha de comando, caso necessário, feche o servidor existente com "CTRL+C".
 
 ## **Passo 4: Criando um Formulário de Exclusão (Delete)**
 
-O processo de criação de um formulário para excluir postagens do Blog é muito semelhante ao de atualização, que fizemos no passo anterior. Usaremos outra visão genérica baseada em classe, chamada [`DeleteView`] (https://docs.djangoproject.com/pt-br/5.0/ref/class-based-views/generic-editing/#django.views.generic.edit.DeleteView "Views de edição genérica - DeleteView"), para criar a “**view**”, **URL** e “**template**” necessários.
+O processo de criação de um formulário para excluir postagens do Blog é muito semelhante ao de atualização, que fizemos no passo anterior. Usaremos outra visão genérica baseada em classe, chamada [`DeleteView`](https://docs.djangoproject.com/pt-br/5.0/ref/class-based-views/generic-editing/#django.views.generic.edit.DeleteView "Views de edição genérica - DeleteView"), para criar a “**view**”, **URL** e “**template**” necessários.
 
 
 4.1) Vamos começar adicionando um link para excluir postagens em nossa página individual do Blog, que chamamos de “**post_detail.html**”. Para isto, abra o arquivo “**post_detail.html**” que está na pasta “**templates**” e substitua todo o seu conteúdo pelo código abaixo.
