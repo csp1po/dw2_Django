@@ -3,7 +3,7 @@
 Neste tutorial, você aprenderá a instalar e configurar o Visual Studio Code (VS Code) para trabalhar com Django. Para isto, siga os passos abaixo.
 
 Antes de prosseguir, caso não tenha instalado o Python em seu computador, siga as instruções abaixo, de acordo com o Sistema Operacional da sua máquina. 
-Observação: procure instalar a última versão.
+> **Observação: procure instalar a última versão.**
 
 1)	[Intalação Windows](https://python.org.br/instalacao-windows/)
 2)	[Intalação Linux](https://python.org.br/instalacao-linux/)
