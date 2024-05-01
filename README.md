@@ -4,7 +4,7 @@
 
 ### Django "Puro" (aplicação monolítica)
 
-* Tutorial Django 01 - Instalando e Configurando o Visual Studio Code: (https://github.com/csp1po/dw2_Django/tree/t1-start)
+* Tutorial Django 01 - Instalando e Configurando o Visual Studio Code e Python: (https://github.com/csp1po/dw2_Django/tree/t1-start)
 * Tutorial Django 02 - Criando Uma Simples Aplicação Web (Hello World): (https://github.com/csp1po/dw2_Django/tree/t2-start)
 * Tutorial Django 03 - Criando Uma Aplicação Web Com Uma Página "*Home*" e outra "*About*": (https://github.com/csp1po/dw2_Django/tree/t3-start)
 * Tutorial Django 04 – Continuando o Tutorial Django 03: (https://github.com/csp1po/dw2_Django/tree/t4-start)
