@@ -5,9 +5,9 @@ Neste tutorial, você aprenderá a instalar e configurar o Visual Studio Code (V
 Antes de prosseguir, caso não tenha instalado o Python em seu computador, siga as instruções abaixo, de acordo com o Sistema Operacional da sua máquina. 
 Observação: procure instalar a última versão.
 
-1)	https://python.org.br/instalacao-windows/
-2)	https://python.org.br/instalacao-linux/
-3)	https://python.org.br/instalacao-mac/
+1)	[Intalação Windows](https://python.org.br/instalacao-windows/)
+2)	[Intalação Linux](https://python.org.br/instalacao-linux/)
+3)	[Instalação MacOS](https://python.org.br/instalacao-mac/)
 
 
 > **Observação Importante: caso você já tenha instalado o VS Code, pule para o passo 2.**
