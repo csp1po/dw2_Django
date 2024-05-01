@@ -608,10 +608,10 @@ urlpatterns = [
 
 11.3) Agora, ao reiniciar o servidor no Terminal `python manage.py runserver`, visite "http://127.0.0.1:8000". Você deverá a seguinte página da web:
 
-![crud_app_example](img_readme/crud_app_example.png))
+![crud_app_example](img_readme/crud_app_example.png)
 
 
 Como você está rodando a aplicação Django pela primeira vez, ela indicará que não existe produtos cadastrados ainda. Clique no botão `+ New Product` para inserir. Se a tabela de produtos possui registros, a tela que você verá será a que está na figura abaixo.
 
-![product_list](img_readme/product_list.png))
+![product_list](img_readme/product_list.png)
 
