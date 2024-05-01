@@ -10,3 +10,4 @@
 * Tutorial Django 05 - Criando Uma Aplicação Web Chamada de Quadro de Mensagens (Message Board): (https://github.com/csp1po/dw2_Django/tree/t5-start)
 * Tutorial Django 06 - Criando Uma Outra Aplicação Web (Blog) (https://github.com/csp1po/dw2_Django/tree/t6-start)
 * Tutorial Django 07 - Adicionando Formulários Na Aplicação Web (Blog) (https://github.com/csp1po/dw2_Django/tree/t7-start)
+* Tutorial Django 08 - Contas de Usuário (https://github.com/csp1po/dw2_Django/tree/t8-start)
