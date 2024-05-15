@@ -1,4 +1,6 @@
-# Este repositório contém o material da Disciplina Desenvolvimento Web II usando Django "Puro"
+# Este repositório contém o material da Disciplina Desenvolvimento Web II usando Django "Puro". 
+# Ou seja, quando o framework é usado como uma aplicação "monolítica".
+
 
 ## Cada tutorial está em um _branch_
 
