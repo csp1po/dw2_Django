@@ -194,7 +194,7 @@ class Post(models.Model):
    	   return self.title
 
 	def get_absolute_url(self):
-      return reverse('post_detail', args=[str(self.id)])
+           return reverse('post_detail', args=[str(self.id)])
 ```
 
 > `reverse` é uma função utilitária muito útil que o Django nos fornece para referenciar um objeto pelo seu nome de “**template**” de URL, que, neste caso é “**post_detail**”. Se você se lembra, o nome do nosso padrão de URL é o seguinte (ver **Passo 10.3 do Tutorial 06**):
