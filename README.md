@@ -250,7 +250,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(‘pages.urls’)),
+    path('', include('pages.urls')),
 ]
 ```
 
@@ -261,7 +261,7 @@ from django.urls import path
 from pages.views import HomePageView
 
 urlpatterns = [
-    path('', HomePageView.as_view(), name=’home’),
+    path('', HomePageView.as_view(), name='home'),
 ]
 ```
 
@@ -293,7 +293,7 @@ class HomePageView(TemplateView):
 	template_name = 'home.html'
 
 class AboutPageView(TemplateView):
-	template_name = ‘about.html’
+	template_name = 'about.html'
 ```
 
 7.3)	Abra o arquivo “**pages/urls.py**”. Adicione o código abaixo (em destaque). Na verdade, você vai importar o nome da “**view**” e vai conectá-la com o URL “**about/**”
@@ -303,8 +303,8 @@ from django.urls import path
 from pages.views import HomePageView, AboutPageView
 
 urlpatterns = [
-  	path('', HomePageView.as_view(), name=’home’),
-	path(‘about/’, AboutPageView.as_view(), name=’about’),
+  	path('', HomePageView.as_view(), name='home'),
+	path('about/', AboutPageView.as_view(), name='about'),
 ]
 ```
 
