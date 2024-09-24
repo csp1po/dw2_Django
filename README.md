@@ -319,7 +319,7 @@ from django.views.generic import ListView
 from .models import Post 
 
 class BlogListView(ListView):
-	model = Post 
+   model = Post 
    template_name = 'home.html'
 ```
 
@@ -591,7 +591,7 @@ from .views import BlogListView, BlogDetailView
 
 urlpatterns = [
     	path('', BlogListView.as_view(), name='home'),
-		path('post/<int:pk>/', BlogDetailView.as_view(),
+        path('post/<int:pk>/', BlogDetailView.as_view(),
       	name='post_detail'),
 ]
 ```
