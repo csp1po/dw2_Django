@@ -309,7 +309,7 @@ urlpatterns = [
 ```
 
 
-7.4) 	Agora, ao reiniciar o servidor no Terminal (`python manage.py runserver`), visite "http://127.0.0.1:8000/". Você deverá a seguinte página da web:
+7.4) 	Agora, ao reiniciar o servidor no Terminal (`python manage.py runserver`), visite "http://127.0.0.1:8000/about/". Você deverá a seguinte página da web:
 
 ![about page view](img_readme/about_page_view.png)
 
