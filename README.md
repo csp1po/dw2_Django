@@ -106,7 +106,7 @@ Para esta parte do tutorial, criaremos uma “**app**” chamada "**posts**".
 python manage.py startapp posts
 ```
 
-Este comando irá criar um diretório chamado “**pages**” com vários arquivos. Veja a estrutura na figura abaixo.
+Este comando irá criar um diretório chamado “**posts**” com vários arquivos. Veja a estrutura na figura abaixo.
 
 ![pasta posts](img_readme/pasta_posts.png)
 
