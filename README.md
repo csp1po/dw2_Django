@@ -400,7 +400,7 @@ Como os projetos Django crescem em complexidade com o tempo e têm vários “**
 9.1) Caso necessário, saia do servidor local com “CTRL+C” e crie um diretório chamado “**static**” na mesma pasta onde está o arquivo “**manage.py**”, ou seja, a pasta é “**Tutorial_06**”. Para isto, na linha de comando digite o comando abaixo:
 
 ```
-(blog) $ mkdir static
+(blogenv) $ mkdir static
 ```
 
 
