@@ -185,7 +185,10 @@ Na linha de comando, caso necessário, feche o servidor existente com “CTRL+C�
          </header>
          {% if user.is_authenticated %}
              <p>Hi {{ user.username }}!</p>
-             <p><a href="{% url 'logout' %}">Log out</a></p> 
+             <form action="{% url 'logout' %}" method="post">
+               {% csrf_token %}
+               <button type="submit">Logout</button>
+           </form>
          {% else %}
              <p>You are not logged in.</p>
              <a href="{% url 'login' %}">Log In</a> 
@@ -195,7 +198,6 @@ Na linha de comando, caso necessário, feche o servidor existente com “CTRL+C�
       </div>
     </body> 
 </html>
-
 ```
 
 > Isso é tudo que precisamos fazer, pois a **“view”** necessária é fornecida pelo **“app”** do Django chamado “**auth**”. No entanto, precisamos especificar para onde redirecionar um usuário após o logout.
