@@ -160,9 +160,9 @@ Na linha de comando, caso necessário, feche o servidor existente com “CTRL+C�
 
 
 
-## **Passo 3: Criando o link de logout**
+## **Passo 3: Criando um botão para logout**
 
-3.1) Adicionamos a lógica no **“template”** da página para usuários não logados, mas, como fazemos o logout agora? Poderíamos ir ao painel do administrador (“**admin**” do Django) e fazer isso manualmente, mas existe uma maneira melhor. Vamos adicionar um link de logout que redirecione para a página inicial. Graças ao sistema de autenticação do Django, isso é extremamente simples de se conseguir. Para isso, abra o arquivo “**templates/base.html**” do diretório **“templates”**, e altere o seu conteúdo pelo código abaixo.
+3.1) Adicionamos a lógica no **“template”** da página para usuários não logados, mas, como fazemos o logout agora? Poderíamos ir ao painel do administrador (“**admin**” do Django) e fazer isso manualmente, mas existe uma maneira melhor. Vamos adicionar um botão de logout que redirecione para a página inicial. Graças ao sistema de autenticação do Django, isso é extremamente simples de se conseguir. Para isso, abra o arquivo “**templates/base.html**” do diretório **“templates”**, e altere o seu conteúdo pelo código abaixo.
 
 ```html
 <!-- templates/base.html -->
