@@ -211,11 +211,11 @@ LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 ```
 
-> Se você atualizar a página inicial, verá que agora tem um link de “**Log out**” para usuários logados. Veja a figura abaixo.
+> Se você atualizar a página inicial, verá que agora tem um botão de “**Log out**” para usuários logados. Veja a figura abaixo.
 
 ![blog_logout](img_readme/blog_logout.png)
 
-E se você clicar neste link (i.e. "**logout**"), será levado de volta à página inicial com um link de “**Log in**” (ver figura abaixo)
+E se você clicar neste botão (i.e. "**logout**"), será levado de volta à página inicial com um link de “**Log in**” (ver figura abaixo)
 
 ![blog_login_2](img_readme/blog_login_2.png)
 
