@@ -1,10 +1,10 @@
-# Este repositório contém o material da Disciplina Desenvolvimento Web II usando Django "Puro". 
+# Este repositório contém o material da Disciplina Desenvolvimento Web II usando Django Full Stack. 
 # Ou seja, quando o framework é usado como uma aplicação "monolítica".
 
 
 ## Cada tutorial está em um _branch_
 
-### Django "Puro" (aplicação monolítica)
+### Django Full Stack (aplicação monolítica)
 
 * Tutorial Django 01 - Instalando e Configurando o Visual Studio Code e Python: (https://github.com/csp1po/dw2_Django/tree/t1-start)
 * Tutorial Django 02 - Criando Uma Simples Aplicação Web (Hello World): (https://github.com/csp1po/dw2_Django/tree/t2-start)
